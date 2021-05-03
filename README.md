@@ -1,7 +1,7 @@
 # Commande pour ```Git Bash --> Github```
 ![Github](https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg "GitHub"
 )
-# &gt;_```Le terminal Git Bash```
+# &gt;_  ```Le terminal Git Bash```
 ```
 ls
 cd
@@ -15,7 +15,7 @@ git push origin master
 git help
  ```
  
-# &gt;_```Lignes de commande GIT```
+# &gt;_  ```Lignes de commande GIT```
 
 ```
 …or create a new repository on the command line

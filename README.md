@@ -18,25 +18,21 @@ git help
 # &gt;_```Lignes de commande GIT```
 
 ```
+…or create a new repository on the command line
+
+echo "# Limortaliter" >> README.md
 git init
-mkdir monPremierRepo
-git add checklist-vacances.md
-git add
-git commit -m "Ajouté ma checklist-vacances.md"
-git status voir les commits
-git log "voir l'historique"
-git commit -a -m "Ajouté itinéraire dans checklist-vacances.md"
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Limortaliter/Limortaliter.git
+git push -u origin main
 
-Connexion reposito
-/*exemple*/
-$ git remote add origin https://github.com/Limortaliter/html.git 
-$ git add --all "ou un fichier que vous avez modifié"
-$ git commit -a -m "votre commit"
-$ git push origin master
-$ git pull : Mettre à jour le dépôt local
-$ git pull origin develop : mettre à jour la branche
-git clone https://github.com/Limortaliter/html5.git
+…or push an existing repository from the command line
 
+git remote add origin https://github.com/Limortaliter/Limortaliter.git
+git branch -M main
+git push -u origin main
 Créer une branch
 
 $ git branch nom_de_ma_branch_nouvelle
